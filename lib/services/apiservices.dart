@@ -1,5 +1,7 @@
 import 'package:dio/dio.dart';
+import 'package:movieapp/common/movie_api_exaption.dart';
 import 'package:movieapp/core/constant/api_base_url.dart';
+import 'package:movieapp/model/movie_model/move_model.dart';
 
 class MovieListApiServices {
   static final Dio dio = Dio(
